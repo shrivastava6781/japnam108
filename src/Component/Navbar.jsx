@@ -6,7 +6,7 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-blue-900 text-white p-4 shadow-md fixed w-full z-10">
+    <nav className="bg-blue-900 text-white p-3 shadow-md fixed w-full z-10">
       <div className="container mx-auto flex justify-between items-center">
         {/* Brand Name */}
         <motion.div 
